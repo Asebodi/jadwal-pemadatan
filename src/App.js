@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
 import "./css/main.css";
 import Main from "./Main";
@@ -20,9 +20,11 @@ function App() {
   let [currentClass, setClass] = useState();
   let [visible, setVisible] = useState("main");
 
-  const trackingId = "UA-165400154-1";
-  ReactGA.initialize(trackingId);
-  ReactGA.pageview("App");
+  useEffect(() => {
+    const trackingId = "UA-165400154-1";
+    ReactGA.initialize(trackingId);
+    ReactGA.pageview("App");
+  }, []);
 
   function clickHandler(pos) {
     setClass(pos);
