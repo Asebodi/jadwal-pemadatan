@@ -21,9 +21,10 @@ function App() {
   let [visible, setVisible] = useState("main");
 
   useEffect(() => {
-    const trackingId = "UA-165400154-1";
-    ReactGA.initialize(trackingId);
-    ReactGA.pageview("App");
+    // const trackingId = "UA-165400154-1";
+    ReactGA.initialize("UA-165400154-1");
+    ReactGA.pageview("/");
+    // console.log("Start");
   }, []);
 
   function clickHandler(pos) {
