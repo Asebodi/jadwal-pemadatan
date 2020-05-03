@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #3d2525;
+  background-color: #d0d9e2;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.page-wrapper-main {
+  max-width: 600px;
+  width: 100%;
+  height: 90vh;
+  margin: auto;
+  background-color: #edf2f7;
+  padding: 0 4em;
+}
+
+.page-wrapper-main header {
+  text-align: center;
+  height: 25vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-wrapper-main header h1 {
+  color: #f67251;
+  font-weight: bolder;
+}
+
+.page-wrapper-main header p {
+  color: #379b9e;
+}
+
+.page-wrapper-main header .header-wrapper {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.page-wrapper-main main {
+  height: 65vh;
+}
+
+.page-wrapper-main main section {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2.5em;
+}
+
+.page-wrapper-main main section .semester-wrapper .semester-title {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #d5e1ec;
+  height: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.page-wrapper-main main section .semester-wrapper .semester-title h3 {
+  font-size: 1.4em;
+}
+
+.page-wrapper-main main section .semester-wrapper .class-flex {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: #ffffff;
+  background-color: #97b9d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 0 10px 10px;
+  height: 3em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.page-wrapper-main main section .semester-wrapper .class-flex div {
+  cursor: pointer;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.page-wrapper-main main section .semester-wrapper .class-flex div:hover,
+.page-wrapper-main main section .semester-wrapper .class-flex div:active {
+  color: #3d2525;
+}
+
+.page-wrapper-main main section .semester-wrapper .class-flex h3 {
+  font-size: 1em;
+}
+
+.page-wrapper-main main section .semester-wrapper .class-short {
+  width: 60%;
+}
+
+.page-wrapper-main main section .semester-wrapper .semester-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 3em;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  height: 10vh;
+  background-color: #e2e8f0;
+  position: relative;
+}
+
+footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  margin: auto;
+  height: 8vh;
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  background-color: #edf2f7;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav img {
+  cursor: pointer;
+  margin-right: 2em;
+}
+
+.page-wrapper-detail {
+  min-height: 92vh;
+  max-width: 600px;
+  margin: auto;
+  background-color: #edf2f7;
+  padding: 0 2em;
+  padding-bottom: 1em;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.page-wrapper-detail .semester-header {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-wrapper-detail .semester-header h2 {
+  color: #f67251;
+  font-size: 2em;
+}
+
+.page-wrapper-detail .semester-header p {
+  color: #379b9e;
+  font-size: 1.1em;
+}
+
+.page-wrapper-detail .semester-date {
+  width: 80%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  background-color: #d5e1ec;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.page-wrapper-detail .semester-date h3 {
+  color: #155e6d;
+  font-size: 1.6em;
+  margin-bottom: 5px;
+}
+
+.page-wrapper-detail .day-selector {
+  position: relative;
+  height: 30px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.page-wrapper-detail .day-selector p {
+  position: absolute;
+  cursor: pointer;
+}
+
+.page-wrapper-detail .day-selector .day-main-active {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-weight: 600;
+}
+
+.page-wrapper-detail .day-selector .day-main-passive {
+  left: 20%;
+  font-weight: initial;
+  font-size: 0.9em;
+  color: #379b9e;
+}
+
+.page-wrapper-detail .day-selector .day-secondary-passive {
+  right: 20%;
+  font-size: 0.9em;
+  color: #379b9e;
+}
+
+.page-wrapper-detail .day-selector .day-secondary-active {
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.page-wrapper-detail .semester-class {
+  margin-top: 3em;
+}
+
+.page-wrapper-detail .semester-class .no-class {
+  text-align: center;
+}
+
+.page-wrapper-detail .semester-class .no-class img {
+  height: 100px;
+  margin-bottom: 2em;
+}
+
+.page-wrapper-detail .semester-class ul li {
+  list-style: none;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5em;
+  padding: 10px;
+  -webkit-box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.16);
+          box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.16);
+}
+
+.page-wrapper-detail .semester-class ul li .class-number {
+  min-width: 70px;
+  height: 70px;
+  color: #ffffff;
+  position: relative;
+  margin-right: 1em;
+  background-color: #abc7e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.page-wrapper-detail .semester-class ul li .class-number p {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.page-wrapper-detail .semester-class ul li .class-number::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #97b9d8;
+}
+
+.page-wrapper-detail .semester-class ul li .class-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.app-main-enter {
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.app-main-enter-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.app-main-exit {
+  position: absolute;
+  width: 100%;
+}
+
+.app-main-exit-active {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.app-detail-enter {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.app-detail-enter-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.app-detail-exit-active {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.sch-today-enter {
+  position: absolute;
+  right: 2em;
+  left: 2em;
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+}
+
+.sch-today-enter-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.sch-today-exit {
+  position: absolute;
+  right: 2em;
+  left: 2em;
+}
+
+.sch-today-exit-active {
+  -webkit-transform: translateX(-110%);
+          transform: translateX(-110%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.sch-tomorrow-enter {
+  -webkit-transform: translateX(110%);
+          transform: translateX(110%);
+  right: 2em;
+  left: 2em;
+}
+
+.sch-tomorrow-enter-active {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.app-detail-exit {
+  right: 2em;
+  left: 2em;
+}
+
+.sch-tomorrow-exit-active {
+  -webkit-transform: translateX(110%);
+          transform: translateX(110%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/*# sourceMappingURL=main.css.map */
