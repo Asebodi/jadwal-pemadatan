@@ -61,7 +61,7 @@ const sem4b = {
       data: [
         {
           id: 1,
-          matkul: "Governasi Digital",
+          matkul: "Governansi Digital",
           waktu: "08.00 - 09.10",
         },
         {
@@ -99,7 +99,7 @@ const sem4b = {
         },
         {
           id: 3,
-          matkul: "Governasi Digital",
+          matkul: "Governansi Digital",
           waktu: "11.40 - 12.50",
         },
         {
