@@ -12,41 +12,54 @@ import sem4a from "./data/sem4a";
 import sem6b from "./data/sem6b";
 import sem6a from "./data/sem6a";
 
-let test;
+import ReactGA from "react-ga";
+
+let conditionalDetail;
 
 function App() {
   let [currentClass, setClass] = useState();
   let [visible, setVisible] = useState("main");
 
+  const trackingId = "UA-165400154-1";
+  ReactGA.initialize(trackingId);
+
   function clickHandler(pos) {
     setClass(pos);
+    // This setClass is called only to tell react to rerender the component
 
     console.log(currentClass);
     switch (pos) {
       case "sem2a":
-        test = <Detail data={sem2a} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem2a} stateHandler={stateHandler} />;
         break;
       case "sem2b":
-        test = <Detail data={sem2b} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem2b} stateHandler={stateHandler} />;
         break;
       case "sem2c":
-        test = <Detail data={sem2c} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem2c} stateHandler={stateHandler} />;
         break;
       case "sem4a":
-        test = <Detail data={sem4a} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem4a} stateHandler={stateHandler} />;
         break;
       case "sem4b":
-        test = <Detail data={sem4b} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem4b} stateHandler={stateHandler} />;
         break;
       case "sem6a":
-        test = <Detail data={sem6a} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem6a} stateHandler={stateHandler} />;
         break;
       case "sem6b":
-        test = <Detail data={sem6b} stateHandler={stateHandler} />;
+        conditionalDetail = <Detail data={sem6b} stateHandler={stateHandler} />;
         break;
       default:
-        test = null;
+        conditionalDetail = null;
     }
+
+    ReactGA.event((pos) => {
+      return {
+        category: "Class open",
+        action: pos,
+      };
+    });
 
     setVisible("detail");
   }
@@ -74,7 +87,7 @@ function App() {
         timeout={500}
         classNames="app-detail"
       >
-        <div className="detail">{test}</div>
+        <div className="detail">{conditionalDetail}</div>
       </CSSTransition>
     </div>
   );
