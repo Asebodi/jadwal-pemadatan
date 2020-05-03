@@ -22,12 +22,12 @@ function App() {
 
   const trackingId = "UA-165400154-1";
   ReactGA.initialize(trackingId);
+  ReactGA.pageview("App");
 
   function clickHandler(pos) {
     setClass(pos);
     // This setClass is called only to tell react to rerender the component
 
-    console.log(currentClass);
     switch (pos) {
       case "sem2a":
         conditionalDetail = <Detail data={sem2a} stateHandler={stateHandler} />;
@@ -54,11 +54,9 @@ function App() {
         conditionalDetail = null;
     }
 
-    ReactGA.event((pos) => {
-      return {
-        category: "Class open",
-        action: pos,
-      };
+    ReactGA.event({
+      category: "Class open",
+      action: pos,
     });
 
     setVisible("detail");
