@@ -23,7 +23,7 @@ body {
 
 .page-wrapper-main header {
   text-align: center;
-  height: 25vh;
+  height: 20vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,7 +53,7 @@ body {
 }
 
 .page-wrapper-main main {
-  height: 65vh;
+  height: 70vh;
 }
 
 .page-wrapper-main main section {
