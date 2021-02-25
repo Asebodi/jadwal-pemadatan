@@ -8,3 +8,4 @@ Ketimbang bikin cuma buat kelas sendiri, sekalian aja masukin jadwal se prodi bi
 Dibuat pake React dengan create-react-app boilerplate. Animasi dibantu pake react transition group buat ngasih className sewaktu transisi, sisanya dihandle CSS.
 
 #### Enjoy!
+#Jadwal-Kuliah-AN
