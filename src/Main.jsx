@@ -10,7 +10,7 @@ export default function Main(props) {
             <h1>
               Jadwal
               <br />
-              Pemadatan
+              Kuliah
             </h1>
             <p>AN FISIP UNS</p>
           </div>
@@ -23,7 +23,7 @@ export default function Main(props) {
                 <h3>Semester 2</h3>
               </div>
 
-              <div className="class-flex">
+              <div className="class-flex class-short">
                 <div
                   className="semester-class"
                   onClick={() => props.clickHandler("sem2a")}
@@ -34,17 +34,10 @@ export default function Main(props) {
                 <img src={line} alt="" />
 
                 <div
-                  className="semester-class"
+                  className="semester-class end"
                   onClick={() => props.clickHandler("sem2b")}
                 >
                   <h3>B</h3>
-                </div>
-                <img src={line} alt="" />
-                <div
-                  className="semester-class end"
-                  onClick={() => props.clickHandler("sem2c")}
-                >
-                  <h3>C</h3>
                 </div>
               </div>
             </div>
@@ -54,7 +47,7 @@ export default function Main(props) {
                 <h3>Semester 4</h3>
               </div>
 
-              <div className="class-flex class-short">
+              <div className="class-flex">
                 <div
                   className="semester-class"
                   onClick={() => props.clickHandler("sem4a")}
@@ -63,10 +56,17 @@ export default function Main(props) {
                 </div>
                 <img src={line} alt="" />
                 <div
-                  className="semester-class end"
+                  className="semester-class"
                   onClick={() => props.clickHandler("sem4b")}
                 >
                   <h3>B</h3>
+                </div>
+                <img src={line} alt="" />
+                <div
+                  className="semester-class end"
+                  onClick={() => props.clickHandler("sem4c")}
+                >
+                  <h3>C</h3>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function Main(props) {
       </div>
 
       <footer>
-        <p>raharditya.com</p>
+        <p>rahardityaXabiyurh</p>
       </footer>
     </div>
   );

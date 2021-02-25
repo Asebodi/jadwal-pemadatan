@@ -4,13 +4,13 @@ import "./css/main.css";
 import Main from "./Main";
 import Detail from "./Detail";
 
-import sem2b from "./data/sem2b";
 import sem2a from "./data/sem2a";
-import sem2c from "./data/sem2c";
-import sem4b from "./data/sem4b";
+import sem2b from "./data/sem2b";
 import sem4a from "./data/sem4a";
-import sem6b from "./data/sem6b";
+import sem4b from "./data/sem4b";
+import sem4c from "./data/sem4c";
 import sem6a from "./data/sem6a";
+import sem6b from "./data/sem6b";
 
 import ReactGA from "react-ga";
 
@@ -38,14 +38,14 @@ function App() {
       case "sem2b":
         conditionalDetail = <Detail data={sem2b} stateHandler={stateHandler} />;
         break;
-      case "sem2c":
-        conditionalDetail = <Detail data={sem2c} stateHandler={stateHandler} />;
-        break;
       case "sem4a":
         conditionalDetail = <Detail data={sem4a} stateHandler={stateHandler} />;
         break;
       case "sem4b":
         conditionalDetail = <Detail data={sem4b} stateHandler={stateHandler} />;
+        break;
+      case "sem4c":
+        conditionalDetail = <Detail data={sem4c} stateHandler={stateHandler} />;
         break;
       case "sem6a":
         conditionalDetail = <Detail data={sem6a} stateHandler={stateHandler} />;
