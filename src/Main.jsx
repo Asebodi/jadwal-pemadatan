@@ -97,7 +97,17 @@ export default function Main(props) {
       </div>
 
       <footer>
-        <p>rahardityaXabiyurh</p>
+        <p>raharditya.com</p>
+        <small>Contributor:</small>
+        <p>
+          <a
+            href="https://www.instagram.com/abiyurh/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            abiyurhn
+          </a>
+        </p>
       </footer>
     </div>
   );

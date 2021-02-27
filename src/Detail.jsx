@@ -1,9 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+// import { useHistory } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import backBtn from "./assets/Group 1.svg";
 import check from "./assets/check.svg";
 
 export default function Detail(props) {
+  // const history = useHistory();
+
+  // useEffect(() => {
+  //   return () => {
+  //     if (history.action === "POP") {
+  //       console.log("aaaaa");
+  //       props.stateHandler("main");
+  //     }
+  //   };
+  // }, [history]);
+
   let [currentDay, setDay] = useState("today");
   let [isTomorrow, setTomorrow] = useState(false);
   const months = [
