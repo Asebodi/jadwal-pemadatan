@@ -127,7 +127,7 @@ export default function Detail(props) {
           onClick={() => props.stateHandler("main")}
         />
         {/* </a> */}
-        <p>Jadwal Pemadatan</p>
+        <p>Jadwal Kuliah</p>
       </nav>
       <div className="page-wrapper-detail">
         <main>

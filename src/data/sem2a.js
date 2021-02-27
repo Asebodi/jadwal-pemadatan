@@ -16,22 +16,12 @@ const sem2a = {
         {
           id: 1,
           matkul: "Kewirausahaan",
-          waktu: "09.15 - 10.00",
+          waktu: "09.20 - 11.05",
         },
         {
           id: 2,
-          matkul: "Bahasa Inggris untuk Ilmu Sosial",
-          waktu: "11.40 - 12.25",
-        },
-        {
-          id: 3,
-          matkul: "Sistem Hukum Indonesia",
-          waktu: "13.20 - 14.10",
-        },
-        {
-          id: 4,
-          matkul: "Pengantar Statistik Sosial",
-          waktu: "15.10 - 16.20",
+          matkul: "Sistem Sosial Budaya Indonesia",
+          waktu: "13.00 - 16.20",
         },
       ],
       info: {
@@ -43,18 +33,18 @@ const sem2a = {
       data: [
         {
           id: 1,
-          matkul: "Sistem Politik Indonesia",
-          waktu: "08.00 - 09.10",
+          matkul: "Pendidikan Kewarganegaraan",
+          waktu: "07.30 - 09.15",
         },
         {
           id: 2,
-          matkul: "Sistem Sosial Budaya Indonesia",
-          waktu: "09.15 - 10.25",
+          matkul: "Azas-azas Manajemen",
+          waktu: "10.15 - 13.50",
         },
         {
           id: 3,
-          matkul: "Kewirausahaan",
-          waktu: "13.50 - 14.35",
+          matkul: "Sistem Ekonomi Indonesia",
+          waktu: "13.55 - 16.20",
         },
       ],
       info: {
@@ -66,23 +56,8 @@ const sem2a = {
       data: [
         {
           id: 1,
-          matkul: "Pendidikan Kewarganegaraan",
-          waktu: "08.50 - 09.35",
-        },
-        {
-          id: 2,
-          matkul: "Sistem Ekonomi Indonesia",
-          waktu: "09.40 - 10.25",
-        },
-        {
-          id: 3,
-          matkul: "Sistem Politik Indonesia",
-          waktu: "11.15 - 12.25",
-        },
-        {
-          id: 4,
-          matkul: "Sistem Sosial Budaya Indonesia",
-          waktu: "13.20 - 14.35",
+          matkul: "Bahasa Inggris untuk Ilmu Sosial",
+          waktu: "07.30 - 09.15",
         },
       ],
       info: {
@@ -94,23 +69,8 @@ const sem2a = {
       data: [
         {
           id: 1,
-          matkul: "Azas-Azas Manajemen",
-          waktu: "08.00 - 09.10",
-        },
-        {
-          id: 2,
-          matkul: "Pengantar Statistik Sosial",
-          waktu: "09.15 - 10.25",
-        },
-        {
-          id: 3,
-          matkul: "Pendidikan Kewarganegaraan",
-          waktu: "13.20 - 14.10",
-        },
-        {
-          id: 4,
-          matkul: "Sistem Ekonomi Indonesia",
-          waktu: "14.15 - 15.05",
+          matkul: "Sistem Politik Indonesia",
+          waktu: "13.00 - 16.20",
         },
       ],
       info: {
@@ -122,18 +82,13 @@ const sem2a = {
       data: [
         {
           id: 1,
-          matkul: "Bahasa Inggris untuk Ilmu Sosial",
-          waktu: "08.00 - 08.45",
+          matkul: "Sistem Hukum Indonesia",
+          waktu: "07.30 - 09.15",
         },
         {
           id: 2,
-          matkul: "Sistem Hukum Indonesia",
-          waktu: "08.50 - 09.35",
-        },
-        {
-          id: 3,
-          matkul: "Azas-Azas Manajemen",
-          waktu: "13.50 - 15.05",
+          matkul: "Pengantar Statistika Sosial",
+          waktu: "09.20 - 13.50",
         },
       ],
       info: {

@@ -16,17 +16,12 @@ const sem4a = {
         {
           id: 1,
           matkul: "Manajemen Pelayanan Publik",
-          waktu: "08.00 - 09.10",
+          waktu: "07.30 - 10.10",
         },
         {
           id: 2,
-          matkul: "Isu dan Kebijakan Otonomi Daerah",
-          waktu: "10.30 - 11.35",
-        },
-        {
-          id: 3,
-          matkul: "Governansi Digital",
-          waktu: "11.40 - 12.50",
+          matkul: "Perilaku Organisasi",
+          waktu: "10.30 - 13.50",
         },
       ],
       info: {
@@ -38,23 +33,13 @@ const sem4a = {
       data: [
         {
           id: 1,
-          matkul: "Etika Administrasi",
-          waktu: "09.15 - 10.25",
+          matkul: "Governansi Digital",
+          waktu: "07.30 - 10.10",
         },
         {
           id: 2,
-          matkul: "Analisa Penelitian Kuantitatif Kualitatif",
-          waktu: "10.30 - 11.35",
-        },
-        {
-          id: 3,
-          matkul: "Manajemen Pelayanan Publik",
-          waktu: "11.40 - 12.50",
-        },
-        {
-          id: 4,
-          matkul: "Isu dan Kebijakan Otonomi Daerah",
-          waktu: "15.10 - 16.20",
+          matkul: "Hukum Administrasi Negara",
+          waktu: "13.00 - 16.20",
         },
       ],
       info: {
@@ -67,22 +52,7 @@ const sem4a = {
         {
           id: 1,
           matkul: "Teori Administrasi Negara",
-          waktu: "08.00 - 09.10",
-        },
-        {
-          id: 2,
-          matkul: "Hukum Administrasi Negara",
-          waktu: "09.15 - 10.25",
-        },
-        {
-          id: 3,
-          matkul: "Etika Administrasi",
-          waktu: "13.50 - 15.05",
-        },
-        {
-          id: 4,
-          matkul: "Analisa Penelitian Kuantitatif Kualitatif",
-          waktu: "15.10 - 16.20",
+          waktu: "10.15 - 13.50",
         },
       ],
       info: {
@@ -94,18 +64,13 @@ const sem4a = {
       data: [
         {
           id: 1,
-          matkul: "Perilaku Organisasi",
-          waktu: "09.15 - 10.25",
+          matkul: "Etika Administrasi",
+          waktu: "10.15 - 13.50",
         },
         {
           id: 2,
-          matkul: "Teori Administrasi Negara",
-          waktu: "11.40 - 12.50",
-        },
-        {
-          id: 3,
-          matkul: "Hukum Administrasi Negara",
-          waktu: "13.50 - 15.05",
+          matkul: "Analisis Penlitian Kuantitaif dan Kualitatif",
+          waktu: "13.55 - 17.15",
         },
       ],
       info: {
@@ -117,13 +82,8 @@ const sem4a = {
       data: [
         {
           id: 1,
-          matkul: "Governansi Digital",
-          waktu: "08.50 - 10.00",
-        },
-        {
-          id: 2,
-          matkul: "Perilaku Organisasi",
-          waktu: "13.50 - 15.05",
+          matkul: "Isu dan Kebijakan Otonomi Daerah",
+          waktu: "07.30 - 10.10",
         },
       ],
       info: {

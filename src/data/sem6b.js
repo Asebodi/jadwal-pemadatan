@@ -15,13 +15,13 @@ const sem6b = {
       data: [
         {
           id: 1,
-          matkul: "Komunikasi dan Advokasi Kebijakan",
-          waktu: "11.40 - 12.50",
+          matkul: "Pengambilan Keputusan",
+          waktu: "07.30 - 10.10",
         },
         {
           id: 2,
-          matkul: "Manajemen Bencana",
-          waktu: "13.50 - 14.35",
+          matkul: "PEMBERDAYAAN MASYARAKAT",
+          waktu: "10.15 - 12.00",
         },
       ],
       info: {
@@ -33,13 +33,18 @@ const sem6b = {
       data: [
         {
           id: 1,
-          matkul: "Metode Penelitian Administrasi",
-          waktu: "08.00 - 09.10",
+          matkul: "Totaly Quality Manajemen",
+          waktu: "07.30 - 09.15",
         },
         {
           id: 2,
-          matkul: "Kebijakan Pembangunan Desa",
-          waktu: "10.30 - 11.15",
+          matkul: "MANAJEMEN BENCANA",
+          waktu: "09.20 - 11.05",
+        },
+        {
+          id: 3,
+          matkul: "KEBIJAKAN PEMBANGUNAN DESA",
+          waktu: "09.20 - 11.05",
         },
       ],
       info: {
@@ -51,23 +56,13 @@ const sem6b = {
       data: [
         {
           id: 1,
-          matkul: "Analisis Kebijakan Publik",
-          waktu: "09.15 - 10.25",
+          matkul: "Metode Penelitian Administrasi",
+          waktu: "07.30 - 10.10",
         },
         {
           id: 2,
-          matkul: "Kebijakan Pembangunan Perspektif Gender",
-          waktu: "10.30 - 11.35",
-        },
-        {
-          id: 3,
-          matkul: "Metode Penelitian Administrasi",
-          waktu: "11.40 - 12.50",
-        },
-        {
-          id: 4,
-          matkul: "Kebijakan Pembangunan Desa",
-          waktu: "15.10 - 15.55",
+          matkul: "Analisis Kebijakan Publik",
+          waktu: "10.30 - 13.50",
         },
       ],
       info: {
@@ -79,28 +74,8 @@ const sem6b = {
       data: [
         {
           id: 1,
-          matkul: "Total Quality Management",
-          waktu: "08.00 - 08.45",
-        },
-        {
-          id: 2,
-          matkul: "Pemberdayaan Masyarakat",
-          waktu: "08.50 - 09.35",
-        },
-        {
-          id: 3,
-          matkul: "Pengambilan Keputusan",
-          waktu: "10.05 - 11.15",
-        },
-        {
-          id: 4,
-          matkul: "Analisis Kebijakan Publik",
-          waktu: "13.50 - 15.05",
-        },
-        {
-          id: 5,
-          matkul: "Kebijakan Pembangunan Perspektif Gender",
-          waktu: "15.10 - 16.20",
+          matkul: "Kebijakan Pembangunan Dalam Perspektif Gender",
+          waktu: "07.30 - 08.20",
         },
       ],
       info: {
@@ -113,27 +88,7 @@ const sem6b = {
         {
           id: 1,
           matkul: "Komunikasi dan Advokasi Kebijakan",
-          waktu: "08.50 - 10.00",
-        },
-        {
-          id: 2,
-          matkul: "Manajemen Bencana",
-          waktu: "10.05 - 10.50",
-        },
-        {
-          id: 3,
-          matkul: "Total Quality Management",
-          waktu: "13.20 - 14.10",
-        },
-        {
-          id: 4,
-          matkul: "Pembedayaan Masyarakat",
-          waktu: "14.15 - 15.05",
-        },
-        {
-          id: 5,
-          matkul: "Pengambilan Keputusan",
-          waktu: "15.10 - 16.20",
+          waktu: "13.55 - 17.15",
         },
       ],
       info: {

@@ -1,7 +1,7 @@
-const sem4b = {
+const sem4c = {
   info: {
     semester: "Semester 4",
-    class: "Kelas B",
+    class: "Kelas C",
   },
 
   classes: [
@@ -15,8 +15,13 @@ const sem4b = {
       data: [
         {
           id: 1,
-          matkul: "Analisis Penelitian Kuantitatif dan Kualitatif",
+          matkul: "Manajemen Pelayanan Publik",
           waktu: "07.30 - 10.10",
+        },
+        {
+          id: 2,
+          matkul: "Hukum Administrasi Negara",
+          waktu: "13.00 - 16.20",
         },
       ],
       info: {
@@ -29,17 +34,7 @@ const sem4b = {
         {
           id: 1,
           matkul: "Governansi Digital",
-          waktu: "07.30 - 10.10",
-        },
-        {
-          id: 2,
-          matkul: "Perilaku Organisasi",
-          waktu: "10.15 - 13.50",
-        },
-        {
-          id: 3,
-          matkul: "Isu dan Kebijakan Otonomi Daerah",
-          waktu: "13.55 - 17.15",
+          waktu: "09.20 - 12.00",
         },
       ],
       info: {
@@ -51,13 +46,13 @@ const sem4b = {
       data: [
         {
           id: 1,
-          matkul: "Teori Administrasi Negara",
-          waktu: "09.20 - 12.00",
+          matkul: "Analisis Penlitian Kuantitatif dan Kualitatif",
+          waktu: "07.30 - 10.10",
         },
         {
           id: 2,
-          matkul: "Hukum Administrasi Negara",
-          waktu: "13.55 - 17.15",
+          matkul: "Teori Administrasi Negara",
+          waktu: "10.15 - 13.50",
         },
       ],
       info: {
@@ -69,8 +64,13 @@ const sem4b = {
       data: [
         {
           id: 1,
-          matkul: "Manajemen Pelayanan Publik",
-          waktu: "10.15 - 13.50",
+          matkul: "Etika Administrasi",
+          waktu: "09.20 - 12.00",
+        },
+        {
+          id: 2,
+          matkul: "Isu dan Kebijakan Otonomi Daerah",
+          waktu: "13.00 - 16.20",
         },
       ],
       info: {
@@ -82,8 +82,8 @@ const sem4b = {
       data: [
         {
           id: 1,
-          matkul: "Etika Administrasi",
-          waktu: "13.00 - 16.20",
+          matkul: "Perilaku Organisasi",
+          waktu: "09.20 - 13.50",
         },
       ],
       info: {
@@ -105,4 +105,4 @@ const sem4b = {
   ],
 };
 
-export default sem4b;
+export default sem4c;
