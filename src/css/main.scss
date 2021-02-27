@@ -133,15 +133,21 @@ footer {
   text-align: center;
   max-width: 600px;
   margin: auto;
-  height: 10vh;
+  min-height: 10vh;
+  padding: 10px 0;
   background-color: $footer;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 0.9rem;
+  }
+
+  small {
+    font-size: 0.8rem;
+    padding-top: 10px;
   }
 }
 
