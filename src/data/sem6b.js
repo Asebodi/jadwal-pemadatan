@@ -20,7 +20,7 @@ const sem6b = {
         },
         {
           id: 2,
-          matkul: "PEMBERDAYAAN MASYARAKAT",
+          matkul: "Pemberdayaan Masyarakat",
           waktu: "10.15 - 12.00",
         },
       ],
@@ -38,13 +38,13 @@ const sem6b = {
         },
         {
           id: 2,
-          matkul: "MANAJEMEN BENCANA",
+          matkul: "Manajemen Bencana",
           waktu: "09.20 - 11.05",
         },
         {
           id: 3,
-          matkul: "KEBIJAKAN PEMBANGUNAN DESA",
-          waktu: "09.20 - 11.05",
+          matkul: "Kebijakan Pembangunan Desa",
+          waktu: "11.10 - 13.50",
         },
       ],
       info: {
