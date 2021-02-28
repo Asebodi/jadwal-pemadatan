@@ -1,11 +1,15 @@
-## Jadwal Kuliah 
+## Jadwal Kuliah
+
 ### Prodi AN FISIP UNS
 
-Aplikasi ini dibikin karna terinspirasi dari raharditya, mencoba belajar cara membuatnya.
+Aplikasi ini dibuat karena jadwal kuliah waktu awal-awal Covid berubah terus dan jadwal yang dikasih dari kampus jelek dan susah dibaca.
 
-Ketimbang bikin cuma buat kelas sendiri, sekalian aja masukin jadwal se prodi biar bisa dipake semua orang.
+Daripada bikin jadwal buat sendiri, iseng iseng dibikin web app, sekalian biar berguna buat yang lainnya.
 
-Dibuat pake React dengan create-react-app boilerplate. Animasi dibantu pake react transition group buat ngasih className sewaktu transisi, sisanya dihandle CSS.
+Dibuat pake React dengan create-react-app boilerplate. Animasi dibantu pake react transition group. Styling pake preprocessor Sass. Analytics pake Google Analytics.
+
+## Contributors
+
+- **[abiyurhn](https://github.com/abiyurhn)**
 
 #### Enjoy!
-#Jadwal-Kuliah-AN
